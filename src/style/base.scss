@@ -7,4 +7,20 @@ $color-blue-two: #518bde;
     grid-template-columns: repeat(11, minmax(150px, 1fr));
     height: 100vh;
     width: 100vw;
+
+    &__title {
+        grid-row: 1/2;
+        grid-column: 1/4;
+
+        
+
+        justify-self: center;
+        font-size: 18px;
+        color: white;
+        font-family: "Montserrat";
+        font-weight: 300;
+        // align-self: center;
+        line-height: 22px;
+        padding: 55px 75px;
+    }
 }
